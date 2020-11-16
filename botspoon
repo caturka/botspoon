@@ -73,9 +73,9 @@ if __name__ == "__main__":
 		print("sedang mengecek ...")
 		print("sedang memuat ...")
 		print("pastikan internet aman ...")
-		req = requests.get('https://botspoon.site/spoon/fun.fun').text
+		req = requests.get('http://botspoon.site/spoon/fun.fun').text
 		
-		act = requests.get('https://botspoon.site/spoon/kodefun')
+		act = requests.get('http://botspoon.site/spoon/kodefun')
 		
 		active = act.json()['kode']
 		#active = requests.get('https://diveot.site/spoon/kodecat').json()['kode']
