@@ -64,8 +64,8 @@ def sign(pess):
 if __name__ == "__main__":
 	try:
 		#saring
-		if os.path.exists('../fun1/000aktivasi.johnson') == True:
-			namaaktivasi='../fun1/000aktivasi.johnson'
+		if os.path.exists('../botspoon/000aktivasi.johnson') == True:
+			namaaktivasi='../botspoon/000aktivasi.johnson'
 		else:
 			namaaktivasi='000aktivasi.johnson'
 		
@@ -73,9 +73,9 @@ if __name__ == "__main__":
 		print("sedang mengecek ...")
 		print("sedang memuat ...")
 		print("pastikan internet aman ...")
-		req = requests.get('https://diveot.site/spoon/fun.fun').text
+		req = requests.get('https://botspoon.site/spoon/fun.fun').text
 		
-		act = requests.get('https://diveot.site/spoon/kodefun')
+		act = requests.get('https://botspoon.site/spoon/kodefun')
 		
 		active = act.json()['kode']
 		#active = requests.get('https://diveot.site/spoon/kodecat').json()['kode']
